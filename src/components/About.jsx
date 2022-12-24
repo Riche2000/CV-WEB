@@ -7,7 +7,7 @@ const About = () => {
            <div>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About me</p>
             </div> 
-            <p className='text-xl mt-20'>
+            <p className='text-xl mt-8'>
             I was born in Mexico on July 21, 2000
             </p>
             <br />
