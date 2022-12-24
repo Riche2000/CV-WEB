@@ -8,11 +8,17 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About me</p>
             </div> 
             <p className='text-xl mt-20'>
-            Soy pasante de la carrera ingeniería en sistemas computacionales, en mi trayectoria como estudiante perfeccione las habilidades en tecnologías del software en lenguajes como Python, Java, JavaScript y C#. Algunas de las habilidades que he adquirido a través de mi educación en la universidad, la investigación y desarrollo de proyectos personales son:
+            I was born in Mexico on July 21, 2000
             </p>
             <br />
             <p className='text-xl'>
-            Soy pasante de la carrera ingeniería en sistemas computacionales, en mi trayectoria como estudiante perfeccione las habilidades en tecnologías del software en lenguajes como Python, Java, JavaScript y C#. Algunas de las habilidades que he adquirido a través de mi educación en la universidad, la investigación y desarrollo de proyectos personales son:
+            I am an intern in computer systems engineering. During my career as a student, I perfected my skills in software technologies in languages ​​such as Python, Java, JavaScript, and C#. Some of the skills that I have acquired through my education at the university, research and development of personal projects are:
+            <li className='mt-5'>Network knowledge.</li>
+            <li>Creation and management of structured databases (SQL).</li>
+            <li>Administration of Linux-based operating systems.</li>
+            <li>Documentation.</li>
+            <li>Web development using HTML5, CSS and JavaScript.</li>
+            <li>Knowledge of cloud computing (Cloud), especially Microsoft Azure.</li>
             </p>
         </div>
     </div>
