@@ -9,14 +9,12 @@ const About = () => {
     {
       id: 1,
       src: mexico,
-      title: "Spanish",
-      
+      title: "Spanish"
     },
     {
       id: 2,
       src: usa,
-      title: "English",
-      
+      title: "English"
     }
   ]
 
