@@ -19,6 +19,7 @@ import linux from "../assets/experience/Linux.png";
 import oraclesql from "../assets/experience/OracleSQL.png";
 import scrum from "../assets/experience/scrum.png";
 import powerbi from "../assets/experience/Powerbi.png";
+import php from "../assets/experience/php.png";
 
 const Experience = () => {
     const techs = [
@@ -131,16 +132,22 @@ const Experience = () => {
         style: "shadow-orange-500",
       },
       {
-        id: 17,
+        id: 19,
         src: scrum,
         title: "SCRUM",
         style: "shadow-gray-400",
       },
       {
-        id: 18,
+        id: 21,
         src: powerbi,
         title: "Power BI",
         style: "shadow-yellow-500",
+      },
+      {
+        id: 20,
+        src: php,
+        title: "PHP",
+        style: "shadow-purple-300",
       }
     ];
   
