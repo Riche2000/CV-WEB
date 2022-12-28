@@ -37,7 +37,7 @@ const About = () => {
             <li>Administration of Linux-based operating systems.</li>
             <li>Documentation.</li>
             <li>Web development using HTML5, CSS and JavaScript.</li>
-            <li>Knowledge of cloud computing (Cloud), especially Microsoft Azure.</li>
+            <li>Knowledge of cloud computing, especially Microsoft Azure.</li>
             </p>
             <p className="py-5 mt-5 text-xl">Languages</p>
             <div className="w-full grid grid-cols-2 sm:grid-cols-8 gap-8 text-center py-1 px-12 sm:px-0">
