@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import {Link} from 'react-scroll';
+import {TypeAnimation} from 'react-type-animation';
+
 
 const NavBar = () => {
 
@@ -32,7 +34,20 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Ricardo</h1>
+        <TypeAnimation
+          sequence={[
+          'Ricardo',
+            10000,
+            'Richard',
+            10000,
+          ]}
+          speed={1}
+          deletionSpeed={1}
+          cursor={false}
+	        wrapper='span'
+          className="text-5xl font-signature ml-2"
+          repeat={Infinity}
+          />
       </div>
 
       <ul className="hidden md:flex">
