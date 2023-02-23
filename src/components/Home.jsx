@@ -26,7 +26,10 @@ const Home = () => {
                 </div>
             </div>
             <div>
-               <img src={MyImage} alt="my profile" className="rounded-2xl mt-12 md:mt-0 mx-auto w-2/3 md:w-100" /> 
+            <div className='hidden md:flex relative left-40 z-0 ml-20 before:absolute before:-top-10 before:-left-10 before:rounded-lg before:w-2/3 before:h-full before:border-2 before:border-white before:z-[-1]'>
+               <img src={MyImage} alt="my profile" className=" rounded-2xl md:mt-0 w-2/3 md:w-100" /> 
+            </div>
+            <img src={MyImage} alt="my profile" className="md:hidden rounded-2xl mt-12 md:mt-0 mx-auto w-2/3 md:w-100" />
             </div>
         </div>
     </div>
