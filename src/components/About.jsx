@@ -1,8 +1,6 @@
 import React from 'react'
 import mexico from "../assets/languages/mexico.png";
 import usa from "../assets/languages/usa.png";
-import {motion} from 'framer-motion'
-
 
 const About = () => {
 
@@ -21,7 +19,7 @@ const About = () => {
 
   return (
     <div name="about" className='w-full h-full pt-28 pb-40 bg-gradient-to-b from-gray-800 to-black text-white'>
-        <motion.div initial="hidden" whileInView="visible" viewport={{once: true, amount:0.5}} transition={{duration:0.5}} variants={{hidden: {opacity:0, x: -50}, visible: {opacity: 1, x: 0}}} className='max-w-screen-lg my-auto p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div className='max-w-screen-lg my-auto p-4 mx-auto flex flex-col justify-center w-full h-full'>
            <div>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About me</p>
             </div> 
@@ -47,7 +45,7 @@ const About = () => {
               </div>
             ))}    
           </div>
-        </motion.div>
+        </div>
     </div>
   )
 }
