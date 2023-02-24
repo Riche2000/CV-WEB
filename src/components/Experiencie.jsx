@@ -20,6 +20,7 @@ import oraclesql from "../assets/experience/OracleSQL.png";
 import scrum from "../assets/experience/scrum.png";
 import powerbi from "../assets/experience/Powerbi.png";
 import php from "../assets/experience/php.png";
+import {motion} from 'framer-motion'
 
 const Experience = () => {
     const techs = [
@@ -154,10 +155,10 @@ const Experience = () => {
     return (
       <div name="experience" className="bg-gradient-to-b pt-24 from-gray-800 to-black w-full h-scrren">
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-          <div>
+          <motion.div initial="hidden" whileInView="visible" viewport={{once: true, amount:0.5}} transition={{duration:0.5}} variants={{hidden: {opacity:0, x: -50}, visible: {opacity: 1, x: 0}}}>
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">Experience</p>
             <p className="py-6">I have knowledge in</p>
-          </div>
+          </motion.div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
             {techs.map(({ id, src, title, style }) => (
               <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
