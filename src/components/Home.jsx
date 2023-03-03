@@ -6,13 +6,13 @@ import {motion} from 'framer-motion'
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-blue-900 via-sky-800 to-cyan-700">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <motion.div initial="hidden" whileInView="visible" viewport={{once: true, amount:0.5}} transition={{duration:0.5}} variants={{hidden: {opacity:0, x: -50}, visible: {opacity: 1, x: 0}}} className="flex flex-col justify-center">
                 <h2 className="text-4xl sm:text-6xl font-bold text-white">
                     I'm a Full Stack Developer
                 </h2>
-                <p className="text-gray-500 py-4 max-w-md">
+                <p className="text-white py-4 max-w-md">
                 I am a computer systems engineering intern focused on
                 software development, machine learning, data analysis and
                 cloud computing.

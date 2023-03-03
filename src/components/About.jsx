@@ -18,10 +18,10 @@ const About = () => {
   ]
 
   return (
-    <div name="about" className='w-full h-full pt-28 pb-40 bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name="about" className='w-full h-full pt-28 pb-40 bg-gradient-to-b from-cyan-700 via-sky-800 to-blue-900 text-white'>
         <div className='max-w-screen-lg my-auto p-4 mx-auto flex flex-col justify-center w-full h-full'>
            <div>
-            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About me</p>
+            <p className='text-4xl font-bold inline border-b-4 border-sky-500'>About me</p>
             </div> 
             <p className='text-xl mt-10'>
             I was born in Mexico on July 21, 2000
