@@ -28,7 +28,7 @@ const About = () => {
             </p>
             <br />
             <p className='text-xl'>
-            I am an intern in computer systems engineering. During my career as a student, I perfected my skills in software technologies in languages ​​such as Python, Java, JavaScript, and C#. Some of the skills that I have acquired through my education at the university, research and development of personal projects are:
+            I am a computer systems engineer. During my career as a student, I perfected my skills in software technologies in languages ​​such as Python, Java, JavaScript, and C#. Some of the skills that I have acquired through my education at the university, research and development of personal projects are:
             <li className='mt-5'>Network knowledge.</li>
             <li>Creation and management of structured databases (SQL).</li>
             <li>Administration of Linux-based operating systems.</li>

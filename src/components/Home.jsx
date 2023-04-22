@@ -13,7 +13,7 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className="text-white py-4 max-w-md">
-                I am a computer systems engineering intern focused on
+                I am a computer systems engineer focused on
                 software development, machine learning, data analysis and
                 cloud computing.
                 </p>
