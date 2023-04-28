@@ -32,7 +32,7 @@ const About = () => {
             <li className='mt-5'>Network knowledge.</li>
             <li>Creation and management of structured databases (SQL).</li>
             <li>Administration of Linux-based operating systems.</li>
-            <li>Documentation.</li>
+            <li>Data analysis.</li>
             <li>Web development using HTML5, CSS and JavaScript.</li>
             <li>Knowledge of cloud computing, especially Microsoft Azure.</li>
             </p>
